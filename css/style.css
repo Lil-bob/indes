@@ -1,6 +1,22 @@
-body {
-    background-image: url(.. /img/anamation.png);
-}
+div {
+    width: 600px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  p {
+    height: 0px;
+    font-size: 0px;
+    transition: 500ms;
+  }
+  
+  div:hover p {
+    font-size: 16px;
+    height: 50px;
+  }
 
 /*
 
